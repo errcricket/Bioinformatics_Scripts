@@ -19,8 +19,7 @@ arguments = sys.argv
 f_name_in = arguments[1] #'NC_008253.fna' 
 f_name_out = arguments[2] #'NC_008253.fna' 
 
-outputFile = open(f_name_out, 'wt')
-#outputFile = open('temp.fna', 'wt') #originally was 'wb' but yielded error.
+outputFile = open(f_name_out, 'wt') #originally was 'wb' but yielded error.
 
 singleLine = ''
 
