@@ -44,6 +44,7 @@ for i in range(len(spliter)):
 			newFile = fileName.replace(extension, newExtension)
 			with open(newFile, 'w') as outputFile2: #output individual sequence to unique file
 				outputFile2.write(spliter[i] + '\n')
+				outputFile2.write(spliter[i+1] + '\n')
 			#print(i, spliter[i], newExtension)
 		outputFile.write(spliter[i] + '\n')
 
